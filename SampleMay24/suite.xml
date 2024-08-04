@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="first-Test-Suite">
+    <test name="First Sample Test">
+        <classes>
+            <class name="testNG.Exam"></class>
+            <class name="testNG.Prioritize"></class>
+            <class name="testNG.Test12"></class>
+        </classes>
+    </test>
+</suite>
