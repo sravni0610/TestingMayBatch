@@ -10,7 +10,7 @@ public class TitleCheck {
         WebDriver driver = new ChromeDriver();
         driver.get("http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login");
         driver.manage().window().maximize();
-        String exptitle = "OrangeHRM";
+        String exptitle = "OrangeHRm";
         String acttitle = driver.getTitle();
 
         System.out.println("Actual title received is "+acttitle);
